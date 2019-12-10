@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa582b4-6660-4127-bb12-f0432f5bd046" name="Default Changelist" comment="" />
+    <list default="true" id="baa582b4-6660-4127-bb12-f0432f5bd046" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/categories/money/bank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/categories/money/cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/categories/money/ssn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/categories/school/resources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/arduino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/bank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/certificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/crm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/ddbms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/django.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/ptjob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/resources.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/images/taxes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Diagram.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/keys.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDBMS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Federated Insurance CRM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internship.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robotic Car.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fulls/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fulls/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fulls/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fulls/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fulls/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fulls/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pic05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thumbs/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thumbs/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thumbs/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thumbs/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thumbs/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/thumbs/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.pdf" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Qc7dc8QYotLtEz3K3Q6eRMrczl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/categories/school" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YASH Training\GitHub\andreprawira.github.io\blog\categories\school" />
+      <recent name="D:\YASH Training\GitHub\andreprawira.github.io\blog\categories\money" />
+      <recent name="D:\YASH Training\GitHub\andreprawira.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YASH Training\GitHub\andreprawira.github.io" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,10 +104,38 @@
       <option name="presentableId" value="Default" />
       <updated>1568058118995</updated>
       <workItem from="1568058124988" duration="13039000" />
+      <workItem from="1568125611439" duration="1509000" />
+      <workItem from="1568318875866" duration="13000" />
+      <workItem from="1570805406224" duration="358000" />
+      <workItem from="1571786027670" duration="5374000" />
+      <workItem from="1572016124753" duration="3000" />
+      <workItem from="1572283192320" duration="13526000" />
+      <workItem from="1572375756424" duration="1546000" />
+      <workItem from="1572405843292" duration="602000" />
+      <workItem from="1572449157139" duration="4314000" />
+      <workItem from="1575921595658" duration="1022000" />
+      <workItem from="1575922791375" duration="2480000" />
+      <workItem from="1575999568580" duration="11569000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

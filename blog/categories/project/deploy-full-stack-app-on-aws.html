@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AWS Series</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../../assets/css/main.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<a href="../../index.html" class="logo"><strong>Home</strong> <span></span></a>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="../../../index.html">Resume</a></li>
+						<li><a href="../school/landing.html">School</a></li>
+						<li><a href="../money/landing.html">Money</a></li>
+						<li><a href="../shoes/landing.html">Shoes</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Deploying a Full Stack App on AWS</h1>
+									</header>
+									<span class="image main"><img src="../../images/diagram.jpg" alt="" /></span>
+									<p> A little background to the blog, I was placed on a 6 months internal project when I first start working in YASH, this project is for one of the clients in the
+										pharmaceutical business. There were several user stories and YASH divided them one team per user story, my team and I were working on a health study system.
+										This blog will guide you how to deploy the diagram above on Amazon Web Services. I will provide
+										you <b>some</b> of them codes and scripts but not all of them. That's why, this guide is more focused on <b>deploying</b> them apps, not <b>developing</b>.</p>
+										<p>
+									This article will show you how to deploy a REST API developed in SpringBoot in AWS BeanStalk as the back-end with a React app in AWS S3 UI Bucket as the front end static page.
+										We are going to use DynamoDB as the database, and use AWS Data Pipeline to funnel the information from DynamoDB to AWS S3 Back-up Bucket, pipeline will convert objects from DynamoDB
+											into a JSON file. Furthermore, we will convert JSON files in the back-up bucket using AWS Glue to .parquet files. Doing so can reduce each file size by 70%, those parquet
+											files are going to be stored in Converted Parquet Bucket. Finally, I will show you how to retrieve .parquet files using Cognito and a Python script.
+											I will also show you how to store all the codes and documentations in AWS CodeCommit. However, before we get into all that, I will assume you <b>already have</b> set-up a working AWS account. For each service, I will create an article (dont worry they will all connect)</p>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/andreprawira24" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="http://instagram.com/Andreprawiraaa" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/andreprawira" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/andre-prawira-690459179/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

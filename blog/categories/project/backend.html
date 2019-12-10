@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AWS Series </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../../assets/css/main.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<a href="../../index.html" class="logo"><strong>Home</strong> <span></span></a>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="../../../index.html">Resume</a></li>
+						<li><a href="../school/landing.html">School</a></li>
+						<li><a href="../money/landing.html">Money</a></li>
+						<li><a href="../shoes/landing.html">Shoes</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Backend - REST API - AWS BeanStalk</h1>
+									</header>
+									<span class="image main"><img src="../../images/keys.jpg" alt="" /></span>
+									<p>Clone <a href="https://github.com/andreprawira/AWS-DynamoDB-SpringBoot">this</a> repository. It contains a REST API (developed with Spring Boot) with GET, POST,
+									UPDATE, and DELETE methods <b>including</b> the configuration with AWS DynamoDB. Assuming you have an IAM with full administrator policies, you just have to
+									generate access and secret keys and put those keys in lines 3 and 4. Afterwards, run the Spring Boot app and test all the methods with Postman to make sure
+									it works. Open target folder and find AWS-DynamoDB-SpringBoot-0.0.1-SNAPSHOT.jar, you are going to upload it to BeanStalk.</p>
+									<p>Go to AWS console and search for beanstalk, click Get Started, fill the Application name as REST API and Choose Java as the platform. Choose upload your code
+										for application code and upload the <code>war</code> file then click configure. Optionally, you can configure environment id (will be your url). If the application
+										health status is "Ok" then go to configuration -> software -> scroll down to Environment properties then add PORT in the name and 9001 in the value. This way you
+										will open port 9001 for testing with your BeanStalk app's url in postman.</p>
+									<span class="image main"><img src="../../images/beanstalk.jpg" alt="" /></span>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/andreprawira24" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="http://instagram.com/Andreprawiraaa" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/andreprawira" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/andre-prawira-690459179/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

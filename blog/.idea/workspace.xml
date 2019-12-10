@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88309904-4b23-438d-b380-3348c4fa5a27" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1StIVHVZyCxv4CF8lpzDkwKxSNh" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/categories/school" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories\money" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories\school" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories\school" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories\project" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories\money" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories\shoes" />
+      <recent name="C:\Users\andre\Downloads\html5up-forty\categories" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88309904-4b23-438d-b380-3348c4fa5a27" name="Default Changelist" comment="" />
+      <created>1572376486109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572376486109</updated>
+      <workItem from="1572376488588" duration="15894000" />
+      <workItem from="1572448371576" duration="781000" />
+      <workItem from="1572449174146" duration="13403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

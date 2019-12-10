@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AWS Series </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../../assets/css/main.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<a href="../../index.html" class="logo"><strong>Home</strong> <span></span></a>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="../../../index.html">Resume</a></li>
+						<li><a href="../school/landing.html">School</a></li>
+						<li><a href="../money/landing.html">Money</a></li>
+						<li><a href="../shoes/landing.html">Shoes</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Frontend - React - AWS S3</h1>
+									</header>
+									<span class="image main"><img src="../../images/frontend.jpg" alt="" /></span>
+									<p>As for frontend react app, I cannot share the project with you guys because I was not tasked developing frontend, I was only tasked to deploy the app that was already build
+									by my co-workers. It was difficult for me to figure out how to deploy a front end app in AWS because there is no equivalent <code>war</code> file in React. Instead, React
+									has to be build and you can use the built folder in S3 as a static page. You can also use BeanStalk to host your front end but I do not suggest doing that as it will cost you
+									money. Hosting the React app in S3 will cost you $0 dollar, you can also configure error page for 404 get request. Anyway, lets get into it.</p>
+									<ul>
+										<li>Create an S3 bucket and turn <b>off</b> Block all public access in the Permission tab</li>
+										<li>Open the bucket, navigate to Permission, click Bucket Policy and edit it</li>
+										<li>Add this policy in the editor <br/><br/>{
+											"Version": "2012-10-17",
+											"Statement": [
+											{
+											"Sid": "PublicReadGetObject",
+											"Effect": "Allow",
+											"Principal": "*",
+											"Action": "s3:GetObject",
+											"Resource": "arn:aws:s3:::NAME-OF-YOUR-BUCKET/*"
+											}
+											]
+											} <br/><br/>doing this will make your bucket completely <b>open</b> for public</li>
+										<li>Since I did not provide you with my own React app, you can <a href="https://github.com/ahfarmer/calculator">download</a> a sample Calculator app</li>
+										<li>After you download it, open CMD and cd to the calculator folder.</li>
+										<li>Open package.json and scroll down until you see scripts and add <br/><br/> "deploy": "aws s3 cp --recursive ./build s3://YOUR-BUCKET-NAME" <br/><br/>
+											between <b>build</b> and <b>test</b></li>
+										<li>Execute <code>npm run build</code> in terminal, this will create a build folder in the project</li>
+										<li>Upload <b>ONLY</b> the build folder to the bucket by executing <code>aws s3 cp --recursive ./build s3://YOUR-BUCKET-NAME</code></li>
+										<li>Go to properties -> enable static web hosting -> point out the index and error documents with index.html and error.html -> click the end point</li>
+									<br/><br/><p>In an actual project, your React app (frontend) will have to communicate with the REST API (backend), if your task is to develop only backend (like me), your
+										front end team will develop the app and add the endpoints (URI for each requests GET, POST, PUT, DELETE, UPDATE) to the front-end code.</p>
+								</ul>
+
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/andreprawira24" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="http://instagram.com/Andreprawiraaa" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/andreprawira" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/andre-prawira-690459179/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
