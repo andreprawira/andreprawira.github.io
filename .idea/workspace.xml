@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa582b4-6660-4127-bb12-f0432f5bd046" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/categories/project/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/categories/project/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <workItem from="1575921595658" duration="1022000" />
       <workItem from="1575922791375" duration="2480000" />
       <workItem from="1575999568580" duration="11791000" />
-      <workItem from="1576082653161" duration="1757000" />
+      <workItem from="1576082653161" duration="2079000" />
     </task>
     <servers />
   </component>
