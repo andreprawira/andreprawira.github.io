@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa582b4-6660-4127-bb12-f0432f5bd046" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/categories/money/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/categories/money/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/categories/school" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AWS/DIGH_TTI_DDR_Web/DDR-UI" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +76,10 @@
       <workItem from="1575921595658" duration="1022000" />
       <workItem from="1575922791375" duration="2480000" />
       <workItem from="1575999568580" duration="11791000" />
-      <workItem from="1576082653161" duration="2318000" />
+      <workItem from="1576082653161" duration="4081000" />
+      <workItem from="1576093998959" duration="2710000" />
+      <workItem from="1576173188716" duration="1308000" />
+      <workItem from="1579121268609" duration="502000" />
     </task>
     <servers />
   </component>
